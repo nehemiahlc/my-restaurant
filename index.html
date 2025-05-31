@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Restaurant Menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">
+
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main-layout">
+        <header>
+            <h1>Nehemiah's Diner</h1>
+            <p>The best burgers and pizza in town.</p>
+        </header>
+        <section class="food-container">
+
+            <div class="food-menu-container" >
+                <img src="pizza.png">
+                <div class="item-details" >
+                    <h3>Pizza</h3>
+                    <p>pepperoni, mushroom, mozaralla</p>
+                    <h4>$14</h4>
+                </div>
+                <div class="btn-container">
+                    <button class="btn btn-add" id="add-pizza"><i class="fi fi-rr-plus"></i></button>
+                </div>
+            </div>
+
+            <div class="food-menu-container" >
+                <img src="hamburger.png">
+                <div class="item-details" >
+                    <h3>Hamburger</h3>
+                    <p>beef, cheese, lettuce</p>
+                    <h4>$12</h4>
+                </div>
+                <div class="btn-container">
+                    <button class="btn btn-add" id="add-hamburger"><i class="fi fi-rr-plus"></i></button>
+                </div>
+            </div>
+
+            <div class="food-menu-container" >
+                <img src="beer.png">
+                <div class="item-details" >
+                    <h3>Beer</h3>
+                    <p>grain, hops, yeast, water</p>
+                    <h4>$12</h4>
+                </div>
+                <div class="btn-container">
+                    <button class="btn btn-add" id="add-beer"><i class="fi fi-rr-plus"></i></button>
+                </div>
+            </div>
+        </section>
+            <section id="order">
+                <div class="pre-checkout" id="pre-checkout">
+                    <p class="warning" id="warning"></p>
+                        <h4>Your Order</h4>
+                        <div class="ordered-items-container">
+                            <p class="ordered-item">
+                                <button class="btn btn-remove"></button>
+                            </p>
+                            <p class="price"></p>
+                        </div>
+                        <div class="ordered-items-container">
+                            <p class="ordered-item">
+                                <button class="btn btn-remove"></button>
+                            </p>
+                            <p class="price"></p>
+                        </div>
+                        <div class="total-price-container">
+                            <p></p>
+                            <p class="price"></p>
+                        </div>
+                        <button class="btn btn-order" id="btn-order"></button>
+                </div>
+            </section>
+            <div class="checkout-payment" id="checkout-payment">
+                <div class="cp-contents">
+                    <button class="btn btn-close">X</button>
+                    <h4>Enter card details</h4>
+                    <form id="order-form">
+                        <input type="text" name="name" placeholder="Enter your name" required>
+                        <input type="text" placeholder="Enter card number" required>
+                        <input type="text" placeholder="Enter CCV" required> 
+                        <button type='submit' class="btn btn-pay" id="btn-pay">Pay</button>
+                    </form>
+                    
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

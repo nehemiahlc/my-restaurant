@@ -1,0 +1,251 @@
+
+
+body, h1, h2, h3, h4, h5, h6, p {
+    font-family: "Smythe", sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #F5F5F5;
+}
+
+img {
+    width: 5em;
+    height: 5em;
+   
+}
+
+
+header {
+    background-image: url(bgImg.png);
+    background-size: cover;         
+    background-repeat: no-repeat; 
+    height: 10em; 
+    color: #ffffff;
+    padding: 3em 0 0 3em;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+h1,
+h3,
+h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/* Pre Checkout Section */
+
+#order .pre-checkout {
+    display: none;
+    font-size: 1.2rem;
+}
+
+.pre-checkout h4 {
+        text-align: center;
+        margin-top: 1.5em;
+        margin-bottom: 1em;
+}
+
+.ordered-items-container,
+.total-price-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-price-container {
+    border-top: 1px solid black;
+    padding-top: 1em;
+}
+
+p,
+header p {
+    margin-top: 0;
+
+}
+
+
+.food-menu-container  p {
+    color: #8B8B8B;
+}
+
+.food-container,
+.pre-checkout {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2em;
+}
+
+
+.food-menu-container {
+    display: flex;
+    border-bottom: 1px solid #D2D2D2;
+    padding: 4em 1em;
+}
+
+.item-details {
+margin-left: 2em;
+}
+
+/* Modal Section */
+
+
+.checkout-payment {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: white;
+
+    
+    padding: 0 1em;
+    height: 370px;
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 2px #666;
+    
+    h4 {
+        text-align: center;
+        font-family: sans-serif;
+        margin-top: 1em;
+        margin-bottom: 1.5em;
+    }  
+    
+}
+
+
+.cp-contents {
+    
+    width: 100%;
+    margin: 2em auto;
+    
+}
+
+input {
+    padding: 1em;
+    margin: .5em;
+    width: 90%;
+}
+
+input:focus {
+    border: 1px solid #16DB99;
+    background-color: #D2D2D2;
+    outline: none;
+    
+}
+/* Sucessful Order */
+
+.thankyou {
+    color: #065F46;
+    background-color:#ECFDF5;
+    width: 80%;
+    height: 4.5em;
+    padding: .5em;
+    text-align: center;
+    margin: 1em auto;
+}
+.warning {
+    color: red;
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: .75em;
+}
+
+
+/* Buttons */
+
+.btn-container {
+    margin-top: .3em;
+    margin-left: auto;
+}
+
+.btn {
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn:disabled {
+    i {
+        color: #D2D2D2;
+    }
+
+    cursor: default
+}
+
+.btn-remove {
+    color: #D2D2D2;
+    background-color: #F5F5F5;
+    font-weight: lighter;
+    font-size: .7rem;
+}
+
+.btn-add {
+    border-radius: 50%;
+    border: 1px solid #D2D2D2;
+    padding: 1.5em;
+    background-color: #F5F5F5;
+}
+
+.btn-add i {
+    color: #3C3C3C;
+}
+
+.btn-order {
+    color: white;
+    background-color: #16DB99;
+    padding: 1em 2em;
+    width: 100%;
+
+}
+
+.btn-pay {
+    color: white;
+    background-color: #16DB99;
+    padding: 1em;
+    width: 100%;
+    margin-top: 2em;
+   
+}
+
+.btn-close {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    background-color: white;
+    padding: 0.5em 1em;
+
+}
+
+/* @media (min-width: 900px) {
+    .main-layout {
+        display: grid;
+        gap: 1em;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+        'head head'
+        'menu order'
+        'menu order';
+    }
+
+    header {
+        grid-area: head;
+    }
+    .food-container {
+        grid-area: menu;
+    }
+
+    .pre-checkout {
+        grid-area: order;
+    }
+} */
+
