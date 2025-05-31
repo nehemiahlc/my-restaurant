@@ -9,6 +9,11 @@ This is a simple restaurant ordering app built with HTML, CSS, and JavaScript. I
 - 💳 Modal checkout form for entering your name and payment info  
 - 🙏 "Thank You" confirmation screen with your name  
 
+## 📸 Screenshots
+
+![Menu](screenshots/menu.png)  
+![Checkout](screenshots/pay.png)  
+![Thank You](screenshots/thankyou.png)  
 ## 🚀 How to Use
 
 1. Clone or download this repo.  
