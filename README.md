@@ -1,6 +1,6 @@
 # 🍔 Responsive Restaurant Menu
 
-This is a simple, responsive restaurant ordering app built with HTML, CSS, and JavaScript. It simulates the experience of ordering food at a restaurant — you can add items to your order, remove them, and complete your purchase through a mock payment form.
+This is a simple restaurant ordering app built with HTML, CSS, and JavaScript. It simulates the experience of ordering food at a restaurant — you can add items to your order, remove them, and complete your purchase through a mock payment form.
 
 ## 🧾 Features
 
@@ -8,7 +8,6 @@ This is a simple, responsive restaurant ordering app built with HTML, CSS, and J
 - ❌ Remove individual items or reduce their quantity  
 - 💳 Modal checkout form for entering your name and payment info  
 - 🙏 "Thank You" confirmation screen with your name  
-- 💻 Fully responsive layout for desktop and mobile
 
 ## 🚀 How to Use
 
