@@ -13,7 +13,8 @@ This is a simple restaurant ordering app built with HTML, CSS, and JavaScript. I
 
 ![Menu](screenshots/menu.png)  
 ![Checkout](screenshots/pay.png)  
-![Thank You](screenshots/thankyou.png)  
+![Thank You](screenshots/thankyou.png)
+  
 ## 🚀 How to Use
 
 1. Clone or download this repo.  
