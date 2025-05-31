@@ -21,7 +21,7 @@ This is a simple, responsive restaurant ordering app built with HTML, CSS, and J
 
 ## 🌐 Live Demo
 
-This project is deployed and live on [Netlify](restaurantapp-nlc.netlify.app).
+This project is deployed and live on [Netlify](https://restaurantapp-nlc.netlify.app).
 
 ## 🙌 Credits
 
